@@ -7,7 +7,7 @@ void main() {
   logger.i('Pesan info');
   logger.w('Pesan peringatan');
   logger.e('Pesan error');
-  logger.e('FATAL: Pesan fatal (simulasi fatal)');
+  logger.e('FATAL: Pesan fatality (simulasi fatal)');
 
   try {
     throw Exception('Simulasi error');
